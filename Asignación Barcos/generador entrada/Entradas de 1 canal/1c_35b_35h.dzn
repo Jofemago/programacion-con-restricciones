@@ -1,0 +1,123 @@
+HorasDisponibles = 35 ; 		% Cantidad de horas habiles para que barco pueda partir
+
+NumBarcos = 35 ; 		% Cantidad de barcos que cruzaran el canal
+
+NumCanales = 1;  
+
+Velocidades = [ 
+66000  ,		%  Barco 1
+516  ,		%  Barco 2
+448  ,		%  Barco 3
+699  ,		%  Barco 4
+303  ,		%  Barco 5
+514  ,		%  Barco 6
+490  ,		%  Barco 7
+455  ,		%  Barco 8
+462  ,		%  Barco 9
+507  ,		%  Barco 10
+562  ,		%  Barco 11
+516  ,		%  Barco 12
+466  ,		%  Barco 13
+432  ,		%  Barco 14
+400  ,		%  Barco 15
+511  ,		%  Barco 16
+504  ,		%  Barco 17
+477  ,		%  Barco 18
+803  ,		%  Barco 19
+274  ,		%  Barco 20
+471  ,		%  Barco 21
+453  ,		%  Barco 22
+671  ,		%  Barco 23
+469  ,		%  Barco 24
+376  ,		%  Barco 25
+263  ,		%  Barco 26
+609  ,		%  Barco 27
+624  ,		%  Barco 28
+667  ,		%  Barco 29
+525  ,		%  Barco 30
+444  ,		%  Barco 31
+663  ,		%  Barco 32
+647  ,		%  Barco 33
+732  ,		%  Barco 34
+828  ,		%  Barco 35
+423  ,		%  Barco 36
+66000  ,		%  Barco 37
+ ]; 
+HoraEstimadaCruce = [ 
+0  ,		%  Barco 1
+3  ,		%  Barco 2
+8  ,		%  Barco 3
+22  ,		%  Barco 4
+34  ,		%  Barco 5
+7  ,		%  Barco 6
+16  ,		%  Barco 7
+19  ,		%  Barco 8
+20  ,		%  Barco 9
+6  ,		%  Barco 10
+5  ,		%  Barco 11
+32  ,		%  Barco 12
+7  ,		%  Barco 13
+16  ,		%  Barco 14
+4  ,		%  Barco 15
+23  ,		%  Barco 16
+32  ,		%  Barco 17
+14  ,		%  Barco 18
+26  ,		%  Barco 19
+28  ,		%  Barco 20
+33  ,		%  Barco 21
+20  ,		%  Barco 22
+8  ,		%  Barco 23
+14  ,		%  Barco 24
+13  ,		%  Barco 25
+23  ,		%  Barco 26
+26  ,		%  Barco 27
+9  ,		%  Barco 28
+34  ,		%  Barco 29
+33  ,		%  Barco 30
+30  ,		%  Barco 31
+30  ,		%  Barco 32
+0  ,		%  Barco 33
+28  ,		%  Barco 34
+8  ,		%  Barco 35
+18  ,		%  Barco 36
+35  ,		%  Barco 37
+ ]; 
+PuntoDeArranque = [ 
+0  ,		%  Barco 1
+1  ,		%  Barco 2
+0  ,		%  Barco 3
+1  ,		%  Barco 4
+1  ,		%  Barco 5
+0  ,		%  Barco 6
+0  ,		%  Barco 7
+1  ,		%  Barco 8
+0  ,		%  Barco 9
+1  ,		%  Barco 10
+0  ,		%  Barco 11
+1  ,		%  Barco 12
+0  ,		%  Barco 13
+1  ,		%  Barco 14
+0  ,		%  Barco 15
+1  ,		%  Barco 16
+1  ,		%  Barco 17
+1  ,		%  Barco 18
+1  ,		%  Barco 19
+1  ,		%  Barco 20
+0  ,		%  Barco 21
+1  ,		%  Barco 22
+0  ,		%  Barco 23
+0  ,		%  Barco 24
+0  ,		%  Barco 25
+1  ,		%  Barco 26
+0  ,		%  Barco 27
+1  ,		%  Barco 28
+0  ,		%  Barco 29
+1  ,		%  Barco 30
+1  ,		%  Barco 31
+1  ,		%  Barco 32
+1  ,		%  Barco 33
+0  ,		%  Barco 34
+1  ,		%  Barco 35
+0  ,		%  Barco 36
+0  ,		%  Barco 37
+ ]; 

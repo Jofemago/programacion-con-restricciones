@@ -1,0 +1,75 @@
+HorasDisponibles = 24 ; 		% Cantidad de horas habiles para que barco pueda partir
+
+NumBarcos = 19 ; 		% Cantidad de barcos que cruzaran el canal
+
+NumCanales = 1;  
+
+Velocidades = [ 
+66000  ,		%  Barco 1
+710  ,		%  Barco 2
+264  ,		%  Barco 3
+611  ,		%  Barco 4
+222  ,		%  Barco 5
+538  ,		%  Barco 6
+162  ,		%  Barco 7
+541  ,		%  Barco 8
+371  ,		%  Barco 9
+320  ,		%  Barco 10
+355  ,		%  Barco 11
+158  ,		%  Barco 12
+661  ,		%  Barco 13
+609  ,		%  Barco 14
+550  ,		%  Barco 15
+632  ,		%  Barco 16
+486  ,		%  Barco 17
+442  ,		%  Barco 18
+436  ,		%  Barco 19
+338  ,		%  Barco 20
+66000  ,		%  Barco 21
+ ]; 
+HoraEstimadaCruce = [ 
+0  ,		%  Barco 1
+18  ,		%  Barco 2
+12  ,		%  Barco 3
+24  ,		%  Barco 4
+24  ,		%  Barco 5
+12  ,		%  Barco 6
+0  ,		%  Barco 7
+12  ,		%  Barco 8
+24  ,		%  Barco 9
+17  ,		%  Barco 10
+1  ,		%  Barco 11
+6  ,		%  Barco 12
+13  ,		%  Barco 13
+1  ,		%  Barco 14
+7  ,		%  Barco 15
+16  ,		%  Barco 16
+22  ,		%  Barco 17
+15  ,		%  Barco 18
+15  ,		%  Barco 19
+6  ,		%  Barco 20
+24  ,		%  Barco 21
+ ]; 
+PuntoDeArranque = [ 
+0  ,		%  Barco 1
+0  ,		%  Barco 2
+0  ,		%  Barco 3
+0  ,		%  Barco 4
+0  ,		%  Barco 5
+1  ,		%  Barco 6
+1  ,		%  Barco 7
+1  ,		%  Barco 8
+1  ,		%  Barco 9
+1  ,		%  Barco 10
+1  ,		%  Barco 11
+1  ,		%  Barco 12
+1  ,		%  Barco 13
+1  ,		%  Barco 14
+0  ,		%  Barco 15
+1  ,		%  Barco 16
+1  ,		%  Barco 17
+1  ,		%  Barco 18
+1  ,		%  Barco 19
+1  ,		%  Barco 20
+0  ,		%  Barco 21
+ ]; 

@@ -1,0 +1,10 @@
+NumMaterias = 58;
+MaxCred =21;
+MinCred =9;
+Ns = 10;
+
+CREDITOS =[5,1,3,2,2,5,5,4,2,1,3,4,3,2,4,2,4,4,3,2,3,4,2,2,3,3,3,3,2,2,4,4,3,2,2,4,3,3,4,4,3,3,4,3,2,4,3,3,4,6,3,2,3,1,3,6,3,6];
+
+NameMaterias =["Mate1","Deportes1","Introduccion a la informatica","DPL","Humanidades1","Progra 1","Mate 2","Fisica1","labFisica1","Deportes2","AlgebraLineal","Progra 2", "Logica","Humanidades2","Fisica2","LabFisica2","EstructuraDeDatos","Mate 3","Progra 3","LabFisica3","Mate 4","Fisica3","TGS","LabElectronica","FundElectronica","AdministracionDeEmpresas","ElectronicaDigital","Progra4","Estadistica","LabElectroDigital","GramaticaLengFormales","BasesDatos1","InvestigacionDOperaciones","TecnComunOralYEscrit","EstadisticaEspecial","ArquitecturaDeComputadores","ComputacionGrafica","Comunicaciones1","ImgDeSoftware1","SistemasOperativos1","Compiladores","InteligenciaArtificial","IngenieriaDeSoftware2","GerenciaDeProyectos","LegisEticaYContratacion","ComputacionBlanda","Comunicaciones2","SistemasDistribuidos","ArqClienteServidor","ElectivaA1","AdminProyecSoftware","ProyectoGrado1","LabDeSoftware","ConstitucionPolitica","AuditoriaSistemas","ProyectoGrado2","Emprendimiento","ElectivaA2"];
+
+PRERREQUISTOS =[{},{},{},{},{},{},{1},{1},{},{2},{1},{6},{3},{7},{7,8},{9},{12},{7},{12},{16},{18},{15,18},{7},{},{15},{},{25},{17},{18},{24},{13},{17},{18},{},{29},{27},{11,19},{21,22},{32},{36},{25},{28},{39},{26},{},{42},{38},{40},{48},{43,47,48},{39,44},{39},{39},{},{51},{52},{48},{45,48}];

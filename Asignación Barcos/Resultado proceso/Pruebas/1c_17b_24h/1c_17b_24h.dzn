@@ -1,0 +1,77 @@
+HorasDisponibles = 24 ; 		% Cantidad de horas habiles para que barco pueda partir
+
+NumBarcos = 17 ; 		% Cantidad de barcos que cruzaran el canal
+
+NumCanales = 1;  
+
+Velocidades = [ 
+66000  ,		%  Barco 1
+594  ,		%  Barco 2
+230  ,		%  Barco 3
+525  ,		%  Barco 4
+258  ,		%  Barco 5
+494  ,		%  Barco 6
+349  ,		%  Barco 7
+808  ,		%  Barco 8
+402  ,		%  Barco 9
+241  ,		%  Barco 10
+611  ,		%  Barco 11
+752  ,		%  Barco 12
+735  ,		%  Barco 13
+473  ,		%  Barco 14
+466  ,		%  Barco 15
+617  ,		%  Barco 16
+931  ,		%  Barco 17
+625  ,		%  Barco 18
+66000  ,		%  Barco 19
+ ]; 
+HoraEstimadaCruce = [ 
+0  ,		%  Barco 1
+14  ,		%  Barco 2
+23  ,		%  Barco 3
+3  ,		%  Barco 4
+2  ,		%  Barco 5
+19  ,		%  Barco 6
+3  ,		%  Barco 7
+16  ,		%  Barco 8
+18  ,		%  Barco 9
+7  ,		%  Barco 10
+14  ,		%  Barco 11
+3  ,		%  Barco 12
+3  ,		%  Barco 13
+20  ,		%  Barco 14
+5  ,		%  Barco 15
+24  ,		%  Barco 16
+0  ,		%  Barco 17
+10  ,		%  Barco 18
+24  ,		%  Barco 19
+ ]; 
+PuntoDeArranque = [ 
+0  ,		%  Barco 1
+0  ,		%  Barco 2
+0  ,		%  Barco 3
+0  ,		%  Barco 4
+1  ,		%  Barco 5
+0  ,		%  Barco 6
+1  ,		%  Barco 7
+0  ,		%  Barco 8
+1  ,		%  Barco 9
+0  ,		%  Barco 10
+0  ,		%  Barco 11
+0  ,		%  Barco 12
+0  ,		%  Barco 13
+1  ,		%  Barco 14
+0  ,		%  Barco 15
+1  ,		%  Barco 16
+0  ,		%  Barco 17
+1  ,		%  Barco 18
+0  ,		%  Barco 19
+ ]; 
+
+
+
+BarcoSiguiente = array1d(1..19, [17, 9, 2, 3, 8, 11, 5, 4, 6, 15, 19, 13, 14, 16, 12, 18, 10, 7, 1]);
+Enruta = array1d(1..19, [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]);
+MinutoDeLlegada = array1d(1..19, [0, 1113, 1087, 900, 759, 1405, 652, 839, 1274, 285, 1430, 338, 359, 496, 318, 521, 69, 546, 1431]);
+MinutoDeSalida = array1d(1..19, [0, 1004, 805, 777, 508, 1274, 466, 759, 1113, 16, 1324, 252, 271, 359, 179, 416, 0, 442, 1431]);
+
